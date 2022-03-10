@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body{
+    font-family: 'Mulish', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1152px;
+    margin: auto
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+menu ul li{
+    display: inline;
+    margin-left: 40px;
+}
+menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.client{
+    height: 425px;
+    width: 100%;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 20px;
+}
